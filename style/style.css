@@ -302,11 +302,11 @@ nav li {
 /* start of sponsor section */
 
 .sponsor-section {
-    margin: 170px 240px
+    margin: 170px 15vw;
 }
 
 .sponsor-text-section {
-    text-align: center;
+    text-align: center;   
 
 }
 
@@ -319,9 +319,7 @@ nav li {
 }
 
 .sponsor-description {
-    text-align: center;
     margin: 0px auto;
-    width: 550px;
     color: #727272;
 }
 
@@ -341,6 +339,7 @@ nav li {
 }
 
 /* end of sponsor section */
+/* end of main section */
 
 
 
@@ -393,7 +392,6 @@ nav li {
     .card-section {
         flex-direction: column;
         gap: 10px;
-        /* flex-wrap: wrap; */
         align-items: center;
     }
 
@@ -429,8 +427,26 @@ nav li {
     .love-tittle-container {
         margin-top: 30px;
     }
+
+    .sponsor-section{
+        padding: 30px 0px;
+    }
+    .sponsor-image-container{
+        padding-top: 140px;
+        flex-direction: column;
+        gap: 30 px;
+    }
+
+    .sponsor-image{
+        
+        width: 70%;
+    }
+   
+   
 }
 
+
+/* medium device */
 @media screen and (min-width:576px) and (max-width: 960px) {
 
     /* body{
@@ -484,4 +500,11 @@ nav li {
     .love-title {
         font-size: 2.8rem;
     }
+    .sponsor-image-container{
+        gap: 40px;
+    }
+    .sponsor-image{
+        width: 11.5vw;
+    }
+    
 }
