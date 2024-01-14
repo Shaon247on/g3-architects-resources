@@ -175,20 +175,10 @@ nav li {
     font-size: 2.8rem;
     font-weight: 700;
     margin-bottom: 24px;
-    display: flex;
-    flex-direction: row-reverse;
-    align-items: center;
-    gap: 15px;
+    border-left: 4px solid #FF900E;
+    padding-left: 15px;
+   
 }
-
-.vartical-line {
-    border: 2px solid #FF900E;
-    background: #FF900E;
-    width: 2px;
-    height: 106px;
-    margin-bottom: 50px;
-}
-
 
 .love-details {
     max-width: 586px;
@@ -349,6 +339,7 @@ nav li {
 
     .feature-section {
         flex-direction: column-reverse;
+        margin-top: 30px;
     }
 
     .feature-image-sections {
@@ -374,12 +365,36 @@ nav li {
     .card-container {
         margin: 0px 10px;
     }
-    .love-section{
 
+    .love-section {
+        flex-direction: column;
+        margin: 20px 20px 30px;
+    }
+    .love-title{
+        font-size: 1.5rem;
+        margin-bottom: 0px;
+    }
+
+    .love-details{
+        margin-bottom: 10px;
+    }
+    .love-image {
+        width: 100%;
+    }
+
+    .love-experience {
+        max-width: 212px;
+        height: 110px;
+        bottom: 0px;
+        left: 0px;
+    }
+    .love-tittle-container{
+        margin-top: 30px;
     }
 }
 
 @media screen and (min-width:576px) and (max-width: 960px) {
+
     /* body{
         width: 912px;
     } */
