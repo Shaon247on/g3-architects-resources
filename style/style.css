@@ -159,6 +159,96 @@ nav li {
 /* end of feature section */
 
 /* start of love section */
+
+.love-section {
+    margin: 50px 11.66vw 100px;
+    display: flex;
+    gap: 50px;
+    position: relative;
+}
+
+.love-text-section {}
+
+.love-title {
+    max-width: 468px;
+    color: #131313;
+    font-size: 2.8rem;
+    font-weight: 700;
+    margin-bottom: 24px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 15px;
+}
+
+.vartical-line {
+    border: 2px solid #FF900E;
+    background: #FF900E;
+    width: 2px;
+    height: 106px;
+    margin-bottom: 50px;
+}
+
+
+.love-details {
+    max-width: 586px;
+    color: #727272;
+    margin-bottom: 0px;
+}
+
+.love-tittle-container {
+    max-width: 500px;
+    margin-bottom: 18px;
+}
+
+.love-description-title {
+    color: #131313;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.love-description {
+    max-width: 450px;
+    max-width: 586px;
+    color: #727272;
+
+}
+
+.love-experience {
+    max-width: 242px;
+    height: 140px;
+    border-radius: 8px;
+    background: #FF900E;
+    border: none;
+    position: absolute;
+    bottom: -50px;
+    left: 580px;
+}
+
+.years {
+    color: #FFF;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.experience {
+    color: #FFF;
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+.love-imagee-section {}
+
+.love-image {
+    max-width: 500px;
+    /* max-height: 982px; */
+}
+
+
+
+
 /* end of love section */
 
 /* start of facts section */
@@ -218,6 +308,8 @@ nav li {
     font-weight: 600;
 }
 
+/* End of facts section */
+
 
 
 
@@ -245,9 +337,11 @@ nav li {
         flex-direction: column;
 
     }
-     main{
+
+    main {
         padding: 0px 10px;
-     }
+    }
+
     .menu-container {
         flex-direction: column;
         gap: 10px;
@@ -270,21 +364,31 @@ nav li {
         width: 80vw;
     }
 
-    .card-section{
+    .card-section {
         flex-direction: column;
+        gap: 10px;
+        /* flex-wrap: wrap; */
+        align-items: center;
     }
+
     .card-container {
         margin: 0px 10px;
+    }
+    .love-section{
+
     }
 }
 
 @media screen and (min-width:576px) and (max-width: 960px) {
+    /* body{
+        width: 912px;
+    } */
     header {
         padding: 35px;
     }
 
     nav {
-        flex-direction: column;        
+        flex-direction: column;
     }
 
     .feature-section {
