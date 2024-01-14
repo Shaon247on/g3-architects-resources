@@ -177,7 +177,7 @@ nav li {
     margin-bottom: 24px;
     border-left: 4px solid #FF900E;
     padding-left: 15px;
-   
+
 }
 
 .love-details {
@@ -299,13 +299,48 @@ nav li {
 }
 
 /* End of facts section */
+/* start of sponsor section */
 
+.sponsor-section {
+    margin: 170px 240px
+}
 
+.sponsor-text-section {
+    text-align: center;
 
+}
 
+.sponsor-title {
+    color: #131313;
+    font-size: 2.8rem;
+    font-weight: 700;
+    margin-bottom: 24px;
 
+}
 
+.sponsor-description {
+    text-align: center;
+    margin: 0px auto;
+    width: 550px;
+    color: #727272;
+}
 
+.sponsor-image-container {
+    margin-top: 50px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5.5vw;
+}
+
+.sponsor-image {
+    width: 11.375vw;
+    height: 50px;
+
+}
+
+/* end of sponsor section */
 
 
 
@@ -370,14 +405,16 @@ nav li {
         flex-direction: column;
         margin: 20px 20px 30px;
     }
-    .love-title{
+
+    .love-title {
         font-size: 1.5rem;
         margin-bottom: 0px;
     }
 
-    .love-details{
+    .love-details {
         margin-bottom: 10px;
     }
+
     .love-image {
         width: 100%;
     }
@@ -388,7 +425,8 @@ nav li {
         bottom: 0px;
         left: 0px;
     }
-    .love-tittle-container{
+
+    .love-tittle-container {
         margin-top: 30px;
     }
 }
@@ -427,19 +465,23 @@ nav li {
     .love-section {
         flex-direction: column;
     }
-    .love-imagee-section{
+
+    .love-imagee-section {
         display: flex;
         justify-content: center;
-       
+
     }
-    .love-image{
-    width: 100%;
-    padding-left: 40px;
-    } 
-    .love-experience{
+
+    .love-image {
+        width: 100%;
+        padding-left: 40px;
+    }
+
+    .love-experience {
         left: 0px;
     }
-    .love-title{
+
+    .love-title {
         font-size: 2.8rem;
     }
 }
