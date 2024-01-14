@@ -408,6 +408,7 @@ nav li {
 
     .feature-section {
         flex-direction: column-reverse;
+        padding: 10px 20px;
     }
 
     .feature-image-sections {
@@ -421,5 +422,24 @@ nav li {
 
     .feature-text-section {
         width: 80vw;
+    }
+
+    .love-section {
+        flex-direction: column;
+    }
+    .love-imagee-section{
+        display: flex;
+        justify-content: center;
+       
+    }
+    .love-image{
+    width: 100%;
+    padding-left: 40px;
+    } 
+    .love-experience{
+        left: 0px;
+    }
+    .love-title{
+        font-size: 2.8rem;
     }
 }
